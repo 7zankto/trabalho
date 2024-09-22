@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Configura a visualização para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página que aparecerá na aba do navegador -->
+    <title>Contato</title>
+</head>
+<body>
+    <!-- Cabeçalho da página com instruções de contato -->
+    <h1>Deixe seu contato ou me mande um email: qwerty@gmail.com</h1>
+    <!-- Formulário para enviar informações de contato -->
+    <form method="POST" action="index.html">
+        <!-- Campo para inserir o nome do usuário -->
+        Nome:<input type="text" name="nome"> <br> <br>
+        <!-- Campo para inserir o email do usuário -->
+        Email:<input type="email" name="email"> <br> <br>
+         <!-- Campo para inserir uma mensagem ou comentário -->
+         Comentário:
+         <br>
+         <textarea name="mensagem" rows="10" cols="30"></textarea>
+         <br>
+         <!-- Botão para enviar o formulário -->
+         <input type ="submit" value="Enviar" />
+        </form>
+    <!-- Botão que redireciona o usuário para a página inicial -->
+    <button onclick="document.location='index.html'">Voltar para o Início</button>
+</body>
+</html>

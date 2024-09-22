@@ -1,0 +1,36 @@
+* {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body, html {
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0; /* Cor de fundo */
+            }
+            
+            .container {
+                display: flex;
+                flex-direction: column;
+                gap: 20px; /* Espaçamento entre os botões */
+            }
+            
+            .botao {
+                width: 200px; /* Largura do botão */
+                height: 60px; /* Altura do botão */
+                font-size: 18px; /* Tamanho da fonte */
+                color: white; /* Cor do texto */
+                background-color: #007BFF; /* Cor de fundo do botão */
+                border: none;
+                border-radius: 5px; /* Bordas arredondadas */
+                cursor: pointer;
+                transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+            }
+            
+            .botao:hover {
+                background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+            }
